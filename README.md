@@ -73,6 +73,13 @@ ipo_project/
 ### **1) 패키지 설치**
 ```bash
 pip install -r requirements.txt
+
+2) 실행
+python main.py
+
+3) EXE 생성
+pyinstaller --noconsole --onefile --icon=dog_icon.ico --add-data "db/ipo.db;db" main.py
+
 📦 EXE 파일 사용법 (사용자용)
 
 1. ipo_공모주크롤링.exe 파일 실행
