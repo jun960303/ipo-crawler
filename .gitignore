@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# VSCode settings
+.vscode/
+.vscode/extensions/
+
+# Logs
+*.log
+
+# DB (필요하면 제외, Git에는 넣어도 상관 없음)
+# db/ipo.db
+
+# OS junk
+Thumbs.db
+.DS_Store
